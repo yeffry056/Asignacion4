@@ -1,0 +1,25 @@
+﻿<Window x:Class="Asignacion4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Asignacion4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <Menu Height="20" Width="800" VerticalAlignment="Top">
+                <MenuItem Header="Capitulo #8">
+                    <MenuItem Header="Fecha" Click="BtnFecha" />
+                    <MenuItem Header="Ordenar cadenas" Click="BtnOrdenarCadenas" />
+                </MenuItem>
+                <MenuItem Header="Capitulo #9">
+                    <MenuItem Header="Guardar Producto" Click="BtnGuardarProduc"/>
+                    <MenuItem Header="Struct Enlazada" Click="StructEnla" />
+                </MenuItem>
+
+            </Menu>
+            <Image Height="412" Width="797" Source="/Fondo.jpg" Stretch="Fill"/>
+        </StackPanel>
+    </Grid>
+</Window>

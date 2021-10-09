@@ -1,0 +1,15 @@
+﻿<Window x:Class="Asignacion4.UI.Cap_8"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Asignacion4.UI"
+        mc:Ignorable="d"
+        Title="Cap_8" Height="283" Width="311">
+    <Grid>
+        <Button Content="Mostrar Hora" HorizontalAlignment="Center" Margin="0,21,0,0" VerticalAlignment="Top" Click="BtnTiempo"/>
+        <TextBox x:Name="TextHora" HorizontalAlignment="Center" Margin="0,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="224"/>
+        <TextBox x:Name="TextFecha" HorizontalAlignment="Center" Margin="0,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

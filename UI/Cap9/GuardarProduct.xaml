@@ -1,0 +1,22 @@
+﻿<Window x:Class="Asignacion4.UI.Cap9.GuardarProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Asignacion4.UI.Cap9"
+        mc:Ignorable="d"
+        Title="GuardarProduct" Height="283" Width="532">
+    <Grid>
+        <Label Content="Nombre " HorizontalAlignment="Left" Margin="168,61,0,0" VerticalAlignment="Top"/>
+        <Label Content="Codigo" HorizontalAlignment="Left" Margin="168,30,0,0" VerticalAlignment="Top"/>
+        <Label Content="Precio" HorizontalAlignment="Left" Margin="168,92,0,0" VerticalAlignment="Top"/>
+        <Label Content="Marca" HorizontalAlignment="Left" Margin="168,123,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextCodigo" HorizontalAlignment="Left" Margin="230,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextNombre" HorizontalAlignment="Left" Margin="230,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextPrecio" HorizontalAlignment="Left" Margin="230,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextMarca" HorizontalAlignment="Left" Margin="230,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Guardar" HorizontalAlignment="Left" Margin="243,158,0,0" VerticalAlignment="Top" Click="BtnGuardar"/>
+
+
+    </Grid>
+</Window>
