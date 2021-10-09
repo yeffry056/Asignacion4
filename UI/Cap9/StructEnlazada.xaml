@@ -8,7 +8,7 @@
         Title="StructEnlazada" Height="358" Width="352">
     <Grid>
         <Label Content="Informacion del dueño" HorizontalAlignment="Left" Margin="43,10,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="TextNombreDue" HorizontalAlignment="Left" Margin="102,45,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextNombreDue" HorizontalAlignment="Left" Margin="102,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="TextApellido" HorizontalAlignment="Left" Margin="102,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="TextEdadDue" HorizontalAlignment="Left" Margin="102,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="TextNombreMascota" HorizontalAlignment="Left" Margin="108,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
